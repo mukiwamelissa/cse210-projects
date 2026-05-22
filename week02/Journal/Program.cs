@@ -4,15 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Journal Project.");
-    }
-
-    using System;
-
-class Program
-{
-    static void Main(string[] args)
-    {
         Journal journal = new Journal();
         PromptGenerator promptGenerator = new PromptGenerator();
 
@@ -37,7 +28,7 @@ class Program
                 Console.Write("> ");
                 string response = Console.ReadLine();
 
-                entry._ entry = new Entry();
+                Entry entry = new Entry();
                 entry._date = DateTime.Now.ToShortDateString();
                 entry._promptText = prompt;
                 entry._entryText = response;
@@ -66,5 +57,4 @@ class Program
             }
         }
     }
-}
 }
