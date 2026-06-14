@@ -1,15 +1,15 @@
 using System;
 
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Fractions Project.");
     }
 
     using System;
 
-class Fraction
+internal class Fraction
 {
     // Attributes
     private int top;

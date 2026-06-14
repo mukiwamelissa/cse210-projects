@@ -1,8 +1,8 @@
 using System;
 
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the ScriptureMemorizer Project.");
         
@@ -36,7 +36,7 @@ class Program
     }
 }
 
-class Reference
+internal class Reference
 {
     private string _book;
     private int _chapter;
@@ -74,7 +74,7 @@ class Reference
     }
 }
 
-class Word
+internal class Word
 {
     private string _text;
     private bool _isHidden;
@@ -108,7 +108,7 @@ class Word
     }
 }
 
-class Scripture
+internal class Scripture
 {
     private Reference _reference;
     private List<Word> _words;

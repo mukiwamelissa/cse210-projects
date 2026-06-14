@@ -133,9 +133,9 @@ public class Order
 }
 
 // Main Program
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         // Order 1 (USA Customer)
         Address address1 = new Address(

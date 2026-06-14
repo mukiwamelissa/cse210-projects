@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-class Comment
+internal class Comment
 {
     public string Name { get; set; }
     public string Text { get; set; }
@@ -13,7 +13,7 @@ class Comment
     }
 }
 
-class Video
+internal class Video
 {
     public string Title { get; set; }
     public string Author { get; set; }
@@ -44,9 +44,9 @@ class Video
     }
 }
 
-class Program
+internal class Program
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         List<Video> videos = new List<Video>();
 
